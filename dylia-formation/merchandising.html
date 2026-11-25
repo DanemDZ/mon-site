@@ -3,8 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cours merchandising supermarché : 20 % théorie, 80 % pratique, avec schémas, ateliers corrigés, mises en situation et quiz.">
   <title>Merchandising | Dylia Formation</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .toc{background:#f6f8fa;border:1px solid #dde3ea;border-radius:8px;padding:14px 22px;margin:18px 0}
+    .toc ol{margin:8px 0 0;padding-left:20px;columns:2;column-gap:30px}
+    .objectifs{border-left:4px solid #2a7f62;background:#f1faf6;padding:12px 20px;margin:18px 0;border-radius:0 8px 8px 0}
+    .part{margin-top:36px;padding:10px 16px;border-radius:8px;background:#1f3a5f;color:#fff}
+    .part.pratique{background:#2a7f62}
+    .part h3{margin:0;color:#fff}
+    .part small{opacity:.85}
+    .schema{margin:16px 0;text-align:center}
+    .schema svg{max-width:100%;height:auto;background:#fff;border:1px solid #dde3ea;border-radius:8px}
+    .schema figcaption{font-size:.9em;color:#555;margin-top:6px}
+    .atelier{border:1px solid #cfe3da;border-radius:8px;padding:6px 18px 14px;margin:20px 0;background:#fbfdfc}
+    .atelier h4{margin-top:10px}
+    .duree{font-size:.85em;color:#2a7f62;font-weight:600}
+    .consigne{background:#fff8e6;border-left:4px solid #e0a100;padding:10px 16px;margin:10px 0;border-radius:0 8px 8px 0}
+    details{margin:10px 0;border:1px solid #dde3ea;border-radius:8px;padding:8px 14px;background:#f6f8fa}
+    details summary{cursor:pointer;font-weight:600}
+    .callout-info{border-left:4px solid #2b6cb0;background:#eef5fc;padding:12px 18px;margin:16px 0;border-radius:0 8px 8px 0}
+    .callout-info strong{display:block;margin-bottom:4px}
+    .quiz-question{margin-bottom:14px}
+    .quiz-options label{display:block;margin:4px 0;cursor:pointer}
+    .quiz-feedback{display:none;margin-top:6px;font-size:.93em;padding:6px 10px;border-radius:6px}
+    .quiz-question.ok .quiz-feedback{display:block;background:#e6f6ee;color:#17623f}
+    .quiz-question.ko .quiz-feedback{display:block;background:#fdeceb;color:#9b2c2c}
+    .quiz-actions{margin-top:14px;display:flex;gap:10px;flex-wrap:wrap}
+    @media(max-width:700px){.toc ol{columns:1}}
+  </style>
 </head>
 <body>
 
@@ -40,198 +68,376 @@
     <div class="container">
       <article class="content-page">
 
-        <h2>Merchandising — Les règles d’or du rayon</h2>
+        <h2>Merchandising — Cours pratique</h2>
         <p>
-          Le merchandising est l’art et la science de présenter les produits pour maximiser 
-          les ventes tout en facilitant le parcours client. Un bon merchandising peut augmenter 
-          le chiffre d’affaires d’un rayon de 10 à 25 % sans changer les prix.
+          Le merchandising est l’ensemble des techniques de présentation qui <strong>aident le client à trouver, donnent envie d’acheter
+          et rendent le rayon rentable</strong>. Ce cours est construit pour <strong>agir</strong> : environ 20 % de théorie (l’essentiel à retenir)
+          et 80 % de pratique (ateliers chiffrés, mises en situation, corrections).
         </p>
 
-        <!-- 1. PRINCIPES FONDAMENTAUX -->
-        <h3>1. Les 5 principes fondamentaux</h3>
-        
-        <h4>1.1. La règle du facing</h4>
-        <p>
-          Le facing = le nombre de faces visibles d’un même produit sur le linéaire.
-        </p>
-        <ul>
-          <li><strong>Facing minimum</strong> : 2 faces pour les produits à faible rotation</li>
-          <li><strong>Facing standard</strong> : 3 à 4 faces pour les références moyennes</li>
-          <li><strong>Facing fort</strong> : 5 faces et plus pour les best-sellers et promotions</li>
-        </ul>
-        <div class="callout callout-warning">
-          <strong>Erreur classique à éviter</strong>
-          Un produit avec un seul facing est presque invisible. Priorisez toujours les meilleures ventes 
-          et les produits à forte marge avec plus de facing.
+        <div class="objectifs">
+          <strong>À la fin du cours, vous saurez :</strong>
+          <ul>
+            <li>implanter une référence au bon niveau et avec le bon facing ;</li>
+            <li>mettre en rayon en respectant le planogramme, l’alignement, les prix et le FIFO ;</li>
+            <li>monter une tête de gondole efficace ;</li>
+            <li>diagnostiquer un rayon et corriger les anomalies ;</li>
+            <li>calculer facing, marge, taux de rupture et démarque.</li>
+          </ul>
+          <span class="duree">Durée indicative : 20 min de théorie + 1 h 20 de pratique</span>
         </div>
 
-        <h4>1.2. La verticalité</h4>
-        <p>
-          On implante de préférence les produits d’une même famille en vertical (de haut en bas) 
-          plutôt qu’en horizontal. Cela permet au client de comparer plus facilement les prix et les références.
-        </p>
-        <ul>
-          <li>Haut du rayon → produits premium / haute gamme</li>
-          <li>Niveau des yeux (1,40 m à 1,70 m) → produits prioritaires et best-sellers</li>
-          <li>Niveau des mains → produits d’appel et promotions</li>
-          <li>Bas du rayon → grands formats, premiers prix, produits lourds</li>
-        </ul>
+        <nav class="toc" aria-label="Sommaire">
+          <strong>Sommaire</strong>
+          <ol>
+            <li><a href="#theorie">Partie 1 — L’essentiel (théorie)</a></li>
+            <li><a href="#a1">Atelier 1 — Diagnostic d’un rayon</a></li>
+            <li><a href="#a2">Atelier 2 — Calculer le facing</a></li>
+            <li><a href="#a3">Atelier 3 — Implanter un rayon</a></li>
+            <li><a href="#a4">Atelier 4 — Mise en rayon et FIFO</a></li>
+            <li><a href="#a5">Atelier 5 — Monter une tête de gondole</a></li>
+            <li><a href="#a6">Atelier 6 — Cross-merchandising</a></li>
+            <li><a href="#a7">Atelier 7 — Calculs de gestion</a></li>
+            <li><a href="#situations">Mises en situation</a></li>
+            <li><a href="#fiche">Fiche réflexe et grille d’évaluation</a></li>
+            <li><a href="#quiz">Quiz final</a></li>
+          </ol>
+        </nav>
 
-        <h4>1.3. Les zones chaudes et zones froides</h4>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Zone</th>
-                <th>Localisation</th>
-                <th>Ce qu’on y met</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Zone chaude</strong></td>
-                <td>Entrée de rayon, allées principales, niveau des yeux, têtes de gondole</td>
-                <td>Nouveautés, promotions, produits à forte marge, best-sellers</td>
-              </tr>
-              <tr>
-                <td><strong>Zone tiède</strong></td>
-                <td>Milieu de rayon, niveaux moyens</td>
-                <td>Produits de fond de gamme, références intermédiaires</td>
-              </tr>
-              <tr>
-                <td><strong>Zone froide</strong></td>
-                <td>Bas de rayon, fonds d’allée, coins</td>
-                <td>Grands formats, premiers prix, produits lourds, stock de sécurité</td>
-              </tr>
-            </tbody>
-          </table>
+        <!-- ================= THÉORIE ================= -->
+        <div class="part" id="theorie"><h3>Partie 1 — L’essentiel à retenir <small>(théorie · 20 %)</small></h3></div>
+
+        <h4>1. Le facing</h4>
+        <p>
+          Le <strong>facing</strong> est le nombre de faces d’une référence visibles par le client. Plus une référence se vend, plus elle a de faces.
+          Repères : <strong>2 faces</strong> (faible rotation), <strong>3 à 4</strong> (moyenne), <strong>5 et plus</strong> (best-sellers, promotions).
+          Le facing se calcule sur les ventes entre deux réassorts (voir atelier 2).
+        </p>
+        <figure class="schema">
+          <svg viewBox="0 0 560 190" role="img" aria-label="Schéma du facing : trois références avec 5, 3 et 2 faces">
+            <rect x="10" y="20" width="540" height="130" fill="#eef1f5" stroke="#9aa5b1"/>
+            <rect x="10" y="150" width="540" height="8" fill="#6b7785"/>
+            <g stroke="#1f3a5f" fill="#cfe0f7">
+              <rect x="20" y="60" width="34" height="90"/><rect x="58" y="60" width="34" height="90"/><rect x="96" y="60" width="34" height="90"/><rect x="134" y="60" width="34" height="90"/><rect x="172" y="60" width="34" height="90"/>
+            </g>
+            <g stroke="#8a4b0f" fill="#fde3bf">
+              <rect x="240" y="75" width="46" height="75"/><rect x="290" y="75" width="46" height="75"/><rect x="340" y="75" width="46" height="75"/>
+            </g>
+            <g stroke="#17623f" fill="#cdeedd">
+              <rect x="420" y="90" width="50" height="60"/><rect x="474" y="90" width="50" height="60"/>
+            </g>
+            <g font-family="sans-serif" font-size="13" text-anchor="middle" fill="#222">
+              <text x="113" y="45">Best-seller : 5 faces</text>
+              <text x="313" y="62">Moyenne : 3 faces</text>
+              <text x="472" y="77">Faible : 2 faces</text>
+              <text x="280" y="178">Une face = un produit vu de face, étiquette tournée vers le client</text>
+            </g>
+          </svg>
+          <figcaption>Schéma 1 — Le facing : plus de faces pour les produits qui se vendent le plus.</figcaption>
+        </figure>
+
+        <h4>2. Les niveaux de hauteur</h4>
+        <p>Le niveau des yeux fait le plus de ventes : on y place les best-sellers et les produits à forte marge. Les produits lourds restent en bas.</p>
+        <figure class="schema">
+          <svg viewBox="0 0 580 300" role="img" aria-label="Schéma des 4 niveaux d’un rayon, de haut en bas">
+            <g stroke="#6b7785" font-family="sans-serif" font-size="14">
+              <rect x="20" y="10" width="250" height="60" fill="#e8e4f5"/>
+              <rect x="20" y="70" width="250" height="70" fill="#ffd9d4" stroke-width="3" stroke="#c0392b"/>
+              <rect x="20" y="140" width="250" height="70" fill="#fde9c4"/>
+              <rect x="20" y="210" width="250" height="80" fill="#dde8f3"/>
+            </g>
+            <g font-family="sans-serif" font-size="14" fill="#222">
+              <text x="30" y="35"><tspan font-weight="bold">Chapeau</tspan> (&gt; 1,70 m)</text>
+              <text x="30" y="55">Premium, PLV, produits légers</text>
+              <text x="30" y="98"><tspan font-weight="bold">Niveau des yeux</tspan> (1,40–1,70 m)</text>
+              <text x="30" y="118">Best-sellers, forte marge</text>
+              <text x="30" y="165"><tspan font-weight="bold">Niveau des mains</tspan> (0,90–1,40 m)</text>
+              <text x="30" y="185">Appel, promos, références courantes</text>
+              <text x="30" y="238"><tspan font-weight="bold">Sol</tspan> (&lt; 0,90 m)</text>
+              <text x="30" y="258">Grands formats, premiers prix, lourds</text>
+            </g>
+            <g font-family="sans-serif" font-size="13" fill="#222">
+              <text x="300" y="45">Ventes : faibles</text>
+              <text x="300" y="108" font-weight="bold" fill="#c0392b">Ventes : les plus élevées</text>
+              <text x="300" y="178">Ventes : élevées</text>
+              <text x="300" y="255">Ventes : faibles</text>
+              <path d="M520 20 V280" stroke="#555" marker-end="url(#fl)"/>
+              <text x="440" y="150" fill="#555">Hauteur</text>
+            </g>
+            <defs><marker id="fl" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#555"/></marker></defs>
+          </svg>
+          <figcaption>Schéma 2 — Les 4 niveaux d’une gondole et ce qu’on y place (hauteurs indicatives).</figcaption>
+        </figure>
+
+        <h4>3. Les zones du magasin</h4>
+        <p>
+          La <strong>zone chaude</strong> (entrée, allées principales, têtes de gondole, caisses) accueille nouveautés et promotions.
+          Les produits que le client vient chercher volontairement (lait, huile, semoule, eau) vont au fond : il traverse tout le magasin pour les atteindre.
+        </p>
+        <figure class="schema">
+          <svg viewBox="0 0 580 320" role="img" aria-label="Plan de magasin : zones chaudes, froides et sens de circulation">
+            <rect x="10" y="10" width="560" height="300" fill="#fff" stroke="#333" stroke-width="2"/>
+            <rect x="20" y="230" width="150" height="70" fill="#ffd9d4" stroke="#c0392b"/>
+            <rect x="180" y="20" width="380" height="40" fill="#dde8f3" stroke="#2b6cb0"/>
+            <rect x="20" y="20" width="150" height="40" fill="#dde8f3" stroke="#2b6cb0"/>
+            <g fill="#fde9c4" stroke="#b9770e"><rect x="190" y="95" width="360" height="22"/><rect x="190" y="145" width="360" height="22"/><rect x="190" y="195" width="360" height="22"/></g>
+            <rect x="440" y="250" width="120" height="50" fill="#ffd9d4" stroke="#c0392b"/>
+            <g font-family="sans-serif" font-size="12" fill="#222" text-anchor="middle">
+              <text x="95" y="258">Entrée : fruits et</text><text x="95" y="274">légumes (zone chaude)</text>
+              <text x="365" y="45">Fond : produits de destination (lait, eau, huile…)</text>
+              <text x="95" y="45">Frais / boucherie</text>
+              <text x="370" y="110">Épicerie · gondoles centrales (zone tiède)</text>
+              <text x="370" y="160">Boissons · hygiène (zone tiède)</text>
+              <text x="370" y="210">Entretien · grands formats (zone froide)</text>
+              <text x="500" y="272">Caisses : impulsion</text>
+            </g>
+            <path d="M95 225 V80 H185 M180 78 H570" fill="none" stroke="#2a7f62" stroke-width="3" stroke-dasharray="6 4"/>
+            <path d="M565 235 H185" fill="none" stroke="#2a7f62" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#fl2)"/>
+            <defs><marker id="fl2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#2a7f62"/></marker></defs>
+            <text x="300" y="232" font-family="sans-serif" font-size="11" fill="#2a7f62" text-anchor="middle">sens de circulation courant</text>
+          </svg>
+          <figcaption>Schéma 3 — Plan type : rouge = zone chaude, orange = zone tiède, bleu = produits de destination ou frais. Adaptez-le au plan réel de votre magasin.</figcaption>
+        </figure>
+
+        <h4>4. Les 4 règles à toujours appliquer</h4>
+        <ul>
+          <li><strong>Planogramme</strong> : on le respecte, on ne le change pas sans accord du chef de rayon.</li>
+          <li><strong>Alignement et prix</strong> : produits tirés sur l’avant, étiquette sous le bon produit, prix identique en caisse.</li>
+          <li><strong>FIFO / DLC</strong> : date la plus courte devant, nouveaux lots derrière.</li>
+          <li><strong>Sécurité</strong> : lourds en bas, jamais de produit au-dessus de la hauteur de charge, allées dégagées.</li>
+        </ul>
+        <div class="callout callout-info"><strong>Cross-merchandising</strong>Rapprocher des produits complémentaires (pâtes + sauce + fromage ; café + sucre + biscuits) augmente le panier moyen.</div>
+
+        <!-- ================= PRATIQUE ================= -->
+        <div class="part pratique"><h3>Partie 2 — Pratique <small>(ateliers · 80 %)</small></h3></div>
+        <p><strong>Mode d’emploi :</strong> faites chaque atelier avant d’ouvrir la correction. Papier, crayon, calculatrice.</p>
+
+        <!-- Atelier 1 -->
+        <div class="atelier" id="a1">
+          <h4>Atelier 1 — Diagnostic d’un rayon <span class="duree">(10 min)</span></h4>
+          <div class="consigne"><strong>Consigne :</strong> vous arrivez au rayon huiles et condiments à 8 h. Pour chaque situation, notez l’erreur et l’action immédiate.</div>
+          <ol>
+            <li>Des bidons d’huile de 5 L sont posés au niveau chapeau.</li>
+            <li>Un produit n’a aucune étiquette de prix.</li>
+            <li>Des pots à DLC courte sont cachés derrière des pots à DLC longue.</li>
+            <li>Un carton ouvert est posé au milieu de l’allée.</li>
+            <li>La tête de gondole est vide, avec une affiche de promotion.</li>
+            <li>Trois bouteilles sont couchées et retournées.</li>
+            <li>Un trou dans le rayon, sans mention de rupture.</li>
+            <li>Le prix en rayon est 240 DA, le prix en caisse est 260 DA.</li>
+          </ol>
+          <details><summary>Voir la correction</summary>
+            <div class="table-wrap"><table>
+              <thead><tr><th>#</th><th>Action immédiate</th><th>Principe</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Descendre les 5 L au sol ; remonter un produit léger ou premium.</td><td>Sécurité, niveaux</td></tr>
+                <tr><td>2</td><td>Faire imprimer et poser l’étiquette ; vérifier le prix.</td><td>Étiquetage</td></tr>
+                <tr><td>3</td><td>Remettre la DLC la plus courte devant.</td><td>FIFO</td></tr>
+                <tr><td>4</td><td>Évacuer le carton, vérifier l’allée.</td><td>Sécurité, parcours</td></tr>
+                <tr><td>5</td><td>Réassortir ; si pas de stock, prévenir le chef de rayon et retirer l’affiche.</td><td>Tête de gondole</td></tr>
+                <tr><td>6</td><td>Redresser, tourner l’étiquette vers le client, tirer le facing.</td><td>Alignement</td></tr>
+                <tr><td>7</td><td>Tirer les produits voisins ; contrôler le stock ; signaler la rupture.</td><td>Rupture visible</td></tr>
+                <tr><td>8</td><td>Signaler l’écart au chef de rayon et corriger l’étiquette.</td><td>Cohérence des prix</td></tr>
+              </tbody>
+            </table></div>
+          </details>
         </div>
 
-        <h4>1.4. La règle des 3 secondes</h4>
-        <p>
-          Le client décide en moyenne en 3 secondes s’il prend un produit ou non. 
-          Le packaging et le facing doivent donc être immédiatement lisibles et attractifs.
-        </p>
-
-        <h4>1.5. Le cross-merchandising</h4>
-        <p>
-          Associer des produits complémentaires pour augmenter le panier moyen :
-        </p>
-        <ul>
-          <li>Pâtes + sauces + fromage râpé</li>
-          <li>Café + biscuits + sucre</li>
-          <li>Chips + boissons gazeuses</li>
-          <li>Fruits + yaourts nature</li>
-          <li>Viande + marinade / épices</li>
-        </ul>
-
-        <!-- 2. IMPLANTATION -->
-        <h3>2. Règles d’implantation concrètes</h3>
-        <ol class="steps">
-          <li>
-            <strong>Respecter le planogramme</strong><br>
-            Le planogramme est la « carte » officielle du rayon. On ne le modifie pas sans validation du chef de rayon.
-          </li>
-          <li>
-            <strong>Alignement parfait</strong><br>
-            Les produits doivent être alignés sur le devant du linéaire (avancée maximale). On appelle cela « tirer le facing ».
-          </li>
-          <li>
-            <strong>Étiquetage impeccable</strong><br>
-            Prix toujours visibles, correctement positionnés sous le produit concerné, sans étiquette manquante ou erronée.
-          </li>
-          <li>
-            <strong>Hauteur et profondeur</strong><br>
-            Ne jamais dépasser la profondeur maximale du rayon (risque de chute). Respecter les hauteurs de sécurité.
-          </li>
-          <li>
-            <strong>Rotation visuelle</strong><br>
-            Varier régulièrement les mises en avant (surtout têtes de gondole) pour créer un effet de nouveauté.
-          </li>
-        </ol>
-
-        <!-- 3. TÊTES DE GONDOLE -->
-        <h3>3. Les têtes de gondole (TG)</h3>
-        <p>
-          Les têtes de gondole sont les emplacements les plus puissants du magasin. 
-          Elles doivent être réservées aux opérations prioritaires :
-        </p>
-        <ul>
-          <li>Promotions nationales ou locales prioritaires</li>
-          <li>Nouveautés à fort potentiel</li>
-          <li>Produits saisonniers</li>
-          <li>Opérations « panier moyen » (lots, multi-achats)</li>
-        </ul>
-        <div class="callout callout-danger">
-          <strong>Interdit</strong>
-          Laisser une tête de gondole vide, mal implantée ou avec des produits non prioritaires. 
-          C’est un gaspillage de potentiel de vente.
+        <!-- Atelier 2 -->
+        <div class="atelier" id="a2">
+          <h4>Atelier 2 — Calculer le facing <span class="duree">(10 min)</span></h4>
+          <p><strong>Méthode :</strong> ventes entre deux réassorts ÷ unités par face = nombre de faces (arrondi au supérieur), plus une marge de sécurité de 20 % pour les références importantes.</p>
+          <div class="consigne">
+            <strong>Exercice A :</strong> biscuits, 36 paquets vendus par jour, 12 paquets par face, 1 réassort par jour. Combien de faces ?<br>
+            <strong>Exercice B :</strong> même produit avec 2 réassorts par jour.<br>
+            <strong>Exercice C :</strong> huile 1 L, 60 bouteilles par jour, 10 par face, 2 réassorts par jour, marge de sécurité de 20 %.
+          </div>
+          <details><summary>Voir la correction</summary>
+            <p><strong>A :</strong> 36 ÷ 12 = <strong>3 faces</strong>.<br>
+            <strong>B :</strong> 36 ÷ 2 = 18 paquets par passage ; 18 ÷ 12 = 1,5, soit <strong>2 faces</strong>.<br>
+            <strong>C :</strong> 60 ÷ 2 = 30 par passage ; 30 × 1,2 = 36 ; 36 ÷ 10 = 3,6, soit <strong>4 faces</strong>.</p>
+            <p><em>Plus on réassortit souvent, moins on a besoin de faces… mais le rayon doit rester plein et visible.</em></p>
+          </details>
         </div>
 
-        <!-- 4. CHECKLIST QUOTIDIENNE -->
-        <h3>4. Checklist merchandising quotidienne</h3>
+        <!-- Atelier 3 -->
+        <div class="atelier" id="a3">
+          <h4>Atelier 3 — Implanter un rayon <span class="duree">(10 min)</span></h4>
+          <div class="consigne"><strong>Consigne :</strong> placez chaque référence au bon niveau (chapeau, yeux, mains, sol) ou en tête de gondole.<br>
+            a) Huile 1 L, marque leader, best-seller · b) Huile 5 L · c) Huile d’olive vierge extra premium · d) Huile 1 L premier prix · e) Huile 1 L en promotion −15 % · f) Vinaigre de vin
+          </div>
+          <details><summary>Voir la correction</summary>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Référence</th><th>Emplacement</th><th>Raison</th></tr></thead>
+              <tbody>
+                <tr><td>a) Best-seller 1 L</td><td>Niveau des yeux</td><td>Meilleures ventes, plus grand facing</td></tr>
+                <tr><td>b) Huile 5 L</td><td>Sol</td><td>Lourd, grand format</td></tr>
+                <tr><td>c) Olive premium</td><td>Chapeau (ou yeux voisins du best-seller)</td><td>Haute gamme, forte marge</td></tr>
+                <tr><td>d) Premier prix</td><td>Bas du rayon (niveau des mains bas ou sol)</td><td>Clients sensibles au prix</td></tr>
+                <tr><td>e) Promotion −15 %</td><td>Tête de gondole + une face au niveau des yeux</td><td>Maximum de visibilité</td></tr>
+                <tr><td>f) Vinaigre</td><td>Niveau des mains, à côté des huiles</td><td>Référence courante, association naturelle</td></tr>
+              </tbody>
+            </table></div>
+          </details>
+        </div>
+
+        <!-- Atelier 4 -->
+        <div class="atelier" id="a4">
+          <h4>Atelier 4 — Mise en rayon et FIFO <span class="duree">(15 min)</span></h4>
+          <figure class="schema">
+            <svg viewBox="0 0 580 230" role="img" aria-label="Schéma FIFO en coupe d’une tablette">
+              <rect x="20" y="120" width="420" height="10" fill="#6b7785"/>
+              <g stroke="#333" font-family="sans-serif" font-size="12" text-anchor="middle">
+                <rect x="25" y="60" width="60" height="60" fill="#ffd9d4"/><rect x="87" y="60" width="60" height="60" fill="#ffd9d4"/>
+                <rect x="165" y="60" width="60" height="60" fill="#fde9c4"/><rect x="227" y="60" width="60" height="60" fill="#fde9c4"/>
+                <rect x="305" y="60" width="60" height="60" fill="#cdeedd"/><rect x="367" y="60" width="60" height="60" fill="#cdeedd"/>
+              </g>
+              <g font-family="sans-serif" font-size="12" text-anchor="middle" fill="#222">
+                <text x="86" y="95">DLC 08/12</text><text x="226" y="95">DLC 14/12</text><text x="396" y="95">DLC 20/12</text>
+                <text x="86" y="150">DEVANT (client)</text><text x="396" y="150">FOND (réassort)</text>
+                <text x="230" y="30">Les dates les plus courtes sont vendues en premier</text>
+              </g>
+              <path d="M40 40 H420" stroke="#555" stroke-width="2" marker-end="url(#fl3)"/>
+              <path d="M480 100 H450" stroke="#2a7f62" stroke-width="3" marker-end="url(#fl3)"/>
+              <text x="510" y="95" font-family="sans-serif" font-size="12" fill="#2a7f62" text-anchor="middle">Nouveau lot</text>
+              <text x="510" y="112" font-family="sans-serif" font-size="12" fill="#2a7f62" text-anchor="middle">posé au fond</text>
+              <defs><marker id="fl3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#555"/></marker></defs>
+              <text x="230" y="195" font-family="sans-serif" font-size="12" fill="#555" text-anchor="middle">Vue de côté d’une tablette : le client prend devant, on remplit par l’arrière.</text>
+            </svg>
+            <figcaption>Schéma 4 — Principe FIFO en rayon : première date entrée, première date sortie.</figcaption>
+          </figure>
+          <p><strong>Procédure :</strong> 1) nettoyer la tablette ; 2) retirer les produits périmés ou abîmés ; 3) sortir les produits en place ; 4) poser le nouveau lot au fond ; 5) remettre devant les dates les plus courtes ; 6) tirer le facing et vérifier l’étiquette.</p>
+          <div class="consigne">
+            <strong>Exercice :</strong> en rayon, 4 yaourts DLC 08/12 et 6 yaourts DLC 14/12. Vous recevez 12 yaourts DLC 20/12 et 2 yaourts DLC 03/12. Dans quel ordre, du devant au fond, rangez-vous ? Quelle date de contrôle déclenche un retrait immédiat ?
+          </div>
+          <details><summary>Voir la correction</summary>
+            <p>Du devant vers le fond : <strong>03/12 → 08/12 → 14/12 → 20/12</strong>. Les yaourts à DLC 03/12 sont mis devant en priorité (et signalés au chef de rayon pour une éventuelle action commerciale). Tout produit dont la date est dépassée, ou qui atteint la limite fixée par la procédure du magasin, est retiré immédiatement et déclaré en démarque.</p>
+          </details>
+        </div>
+
+        <!-- Atelier 5 -->
+        <div class="atelier" id="a5">
+          <h4>Atelier 5 — Monter une tête de gondole <span class="duree">(15 min)</span></h4>
+          <figure class="schema">
+            <svg viewBox="0 0 560 280" role="img" aria-label="Schéma d’une tête de gondole avec affiche, produits et prix">
+              <rect x="150" y="10" width="260" height="40" fill="#c0392b"/>
+              <text x="280" y="36" font-family="sans-serif" font-size="16" fill="#fff" text-anchor="middle">AFFICHE : message + prix</text>
+              <rect x="150" y="50" width="260" height="190" fill="#eef1f5" stroke="#333"/>
+              <g stroke="#333" fill="#cfe0f7">
+                <rect x="165" y="70" width="50" height="45"/><rect x="220" y="70" width="50" height="45"/><rect x="275" y="70" width="50" height="45"/><rect x="330" y="70" width="50" height="45"/>
+                <rect x="165" y="125" width="50" height="45"/><rect x="220" y="125" width="50" height="45"/><rect x="275" y="125" width="50" height="45"/><rect x="330" y="125" width="50" height="45"/>
+                <rect x="165" y="180" width="50" height="45"/><rect x="220" y="180" width="50" height="45"/><rect x="275" y="180" width="50" height="45"/><rect x="330" y="180" width="50" height="45"/>
+              </g>
+              <rect x="150" y="240" width="260" height="28" fill="#fff8e6" stroke="#e0a100"/>
+              <text x="280" y="259" font-family="sans-serif" font-size="13" text-anchor="middle">Étiquette de prix lisible</text>
+              <g font-family="sans-serif" font-size="13" fill="#222">
+                <text x="15" y="35">1 message</text><text x="15" y="52">clair</text>
+                <text x="15" y="130">1 seul produit</text><text x="15" y="147">ou 1 thème</text>
+                <text x="425" y="130">Plein et</text><text x="425" y="147">aligné</text>
+                <text x="425" y="260">Prix = caisse</text>
+              </g>
+            </svg>
+            <figcaption>Schéma 5 — Anatomie d’une tête de gondole réussie.</figcaption>
+          </figure>
+          <ol>
+            <li>Vérifier le stock disponible et le prix de l’opération.</li>
+            <li>Nettoyer l’emplacement et retirer l’ancienne mise en avant.</li>
+            <li>Poser l’affiche et monter les produits en pyramide ou en blocs réguliers.</li>
+            <li>Coller le prix, vérifier qu’il est identique en caisse.</li>
+            <li>Contrôler le remplissage plusieurs fois par jour.</li>
+          </ol>
+          <div class="consigne">
+            <strong>Cas :</strong> opération Ramadan sur le lait. La TG a 4 faces, 3 niveaux, 12 briques par emplacement. Ventes prévues : 300 briques par jour. Quelle est la capacité de la TG ? Combien de passages de réassort faut-il ?
+          </div>
+          <details><summary>Voir la correction</summary>
+            <p>Capacité = 4 × 3 × 12 = <strong>144 briques</strong>. 300 ÷ 144 ≈ 2,1 : il faut <strong>3 passages</strong> de réassort par jour (ou 2 passages plus un stock au pied de la TG). Prévenir le chef de rayon avant l’opération pour s’assurer que le stock suit.</p>
+          </details>
+        </div>
+
+        <!-- Atelier 6 -->
+        <div class="atelier" id="a6">
+          <h4>Atelier 6 — Cross-merchandising <span class="duree">(5 min)</span></h4>
+          <div class="consigne"><strong>Consigne :</strong> associez à chaque produit principal deux produits complémentaires à placer à côté : 1) pâtes · 2) café · 3) viande hachée · 4) thé · 5) chips.</div>
+          <details><summary>Voir une correction possible</summary>
+            <ul>
+              <li>Pâtes → sauce tomate, fromage râpé</li>
+              <li>Café → sucre, biscuits</li>
+              <li>Viande hachée → épices, pain à burger</li>
+              <li>Thé → menthe, sucre, verres à thé</li>
+              <li>Chips → boissons gazeuses, sauces</li>
+            </ul>
+            <p>Règle : l’association doit être <strong>logique pour le client</strong> et ne pas dérégler l’organisation du rayon.</p>
+          </details>
+        </div>
+
+        <!-- Atelier 7 -->
+        <div class="atelier" id="a7">
+          <h4>Atelier 7 — Calculs de gestion <span class="duree">(10 min)</span></h4>
+          <div class="consigne">
+            <strong>a)</strong> Un produit est acheté 120 DA HT et vendu 150 DA HT. Marge brute et taux de marge ?<br>
+            <strong>b)</strong> Rayon de 250 références, 15 en rupture. Taux de rupture ?<br>
+            <strong>c)</strong> Rayon de 8 mètres linéaires qui réalise 800 000 DA de CA. CA par mètre ?<br>
+            <strong>d)</strong> Démarque de 12 000 DA pour un CA de 1 200 000 DA. Taux de démarque ?
+          </div>
+          <details><summary>Voir la correction</summary>
+            <p><strong>a)</strong> Marge = 150 − 120 = <strong>30 DA</strong> ; taux = 30 ÷ 150 × 100 = <strong>20 %</strong>.<br>
+            <strong>b)</strong> 15 ÷ 250 × 100 = <strong>6 %</strong>.<br>
+            <strong>c)</strong> 800 000 ÷ 8 = <strong>100 000 DA par mètre</strong>.<br>
+            <strong>d)</strong> 12 000 ÷ 1 200 000 × 100 = <strong>1 %</strong>.</p>
+          </details>
+        </div>
+
+        <!-- Situations -->
+        <h3 id="situations">Mises en situation</h3>
+        <p>Pour chacune, dites ce que vous faites, dans l’ordre. Puis comparez.</p>
+        <details><summary>1. Un client demande un produit en rupture visible</summary>
+          <p>Vérifier la réserve et le stock proche ; si disponible, réassortir immédiatement. Sinon, proposer un produit équivalent, poser ou mettre à jour l’étiquette de rupture et signaler la rupture au chef de rayon.</p></details>
+        <details><summary>2. Un produit n’a pas d’étiquette et vous n’êtes pas sûr du prix</summary>
+          <p>Ne jamais deviner le prix. Faire éditer l’étiquette ou demander au chef de rayon ; entre-temps, signaler le produit selon la procédure du magasin.</p></details>
+        <details><summary>3. Une palette arrive à l’heure de pointe</summary>
+          <p>Mettre en place une signalisation, garder l’allée praticable, privilégier le réassort des références prioritaires, évacuer rapidement les emballages. Éviter les opérations lourdes en pleine affluence si possible.</p></details>
+        <details><summary>4. Le stock d’un produit en promotion est épuisé</summary>
+          <p>Prévenir immédiatement le chef de rayon, retirer ou masquer l’affiche selon la consigne, remplacer la mise en avant par une opération prioritaire en stock.</p></details>
+        <details><summary>5. Vous trouvez un produit périmé en rayon</summary>
+          <p>Le retirer immédiatement, le déclarer selon la procédure (démarque), contrôler les autres lots de la même référence, puis informer le chef de rayon.</p></details>
+
+        <!-- Fiche -->
+        <h3 id="fiche">Fiche réflexe (à imprimer)</h3>
         <ul class="checklist">
-          <li>Tous les facings sont tirés (produits avancés sur le devant)</li>
-          <li>Aucune rupture visible sur les références prioritaires</li>
-          <li>Étiquettes de prix présentes, correctes et lisibles</li>
-          <li>Têtes de gondole propres et bien implantées</li>
-          <li>Produits abîmés ou déformés retirés</li>
-          <li>Zones de promotion clairement identifiées</li>
-          <li>Cross-merchandising en place sur les associations prioritaires</li>
-          <li>Rayon propre (sol, tablettes, fonds de gondole)</li>
+          <li>Rayon propre, produits tirés sur le devant</li>
+          <li>Étiquette présente, lisible, prix identique en caisse</li>
+          <li>Best-sellers au niveau des yeux, lourds en bas</li>
+          <li>Dates courtes devant (FIFO), produits abîmés retirés</li>
+          <li>Tête de gondole pleine, propre et conforme à l’opération</li>
+          <li>Allées libres, cartons évacués</li>
+          <li>Anomalies et ruptures signalées au chef de rayon</li>
         </ul>
+
+        <h4>Grille d’évaluation pratique (chef de rayon)</h4>
+        <p>Notez de 0 (non maîtrisé) à 2 (maîtrisé). Seuil conseillé : 12 / 16.</p>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Critère</th><th>0</th><th>1</th><th>2</th></tr></thead>
+          <tbody>
+            <tr><td>Respect du planogramme</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Alignement et facing</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Étiquetage et prix</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>FIFO / DLC</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Tête de gondole</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Propreté et sécurité</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Calculs (facing, marge)</td><td>☐</td><td>☐</td><td>☐</td></tr>
+            <tr><td>Réaction aux situations</td><td>☐</td><td>☐</td><td>☐</td></tr>
+          </tbody>
+        </table></div>
 
         <!-- QUIZ -->
-        <div class="quiz-box">
-          <h3>Quiz — Merchandising (5 questions)</h3>
-          
-          <div class="quiz-question">
-            <p>1. À quelle hauteur doit-on privilégier les best-sellers ?</p>
-            <div class="quiz-options">
-              <label><input type="radio" name="q1" value="a"> Bas du rayon</label>
-              <label><input type="radio" name="q1" value="b"> Niveau des yeux (1,40 – 1,70 m)</label>
-              <label><input type="radio" name="q1" value="c"> Tout en haut</label>
-            </div>
+        <div class="quiz-box" id="quiz">
+          <h3>Quiz final (8 questions)</h3>
+          <form id="merch-quiz" onsubmit="return false;"></form>
+          <div class="quiz-actions">
+            <button type="button" class="btn btn-primary" onclick="checkMerchQuiz()">Valider mes réponses</button>
+            <button type="button" class="btn btn-outline" onclick="resetMerchQuiz()">Recommencer</button>
           </div>
-
-          <div class="quiz-question">
-            <p>2. Qu’est-ce que le facing ?</p>
-            <div class="quiz-options">
-              <label><input type="radio" name="q2" value="a"> Le prix du produit</label>
-              <label><input type="radio" name="q2" value="b"> Le nombre de faces visibles d’un produit</label>
-              <label><input type="radio" name="q2" value="c"> La profondeur du rayon</label>
-            </div>
-          </div>
-
-          <div class="quiz-question">
-            <p>3. Où place-t-on en priorité les promotions fortes ?</p>
-            <div class="quiz-options">
-              <label><input type="radio" name="q3" value="a"> En zone froide</label>
-              <label><input type="radio" name="q3" value="b"> En tête de gondole et zone chaude</label>
-              <label><input type="radio" name="q3" value="c"> Uniquement en bas de rayon</label>
-            </div>
-          </div>
-
-          <div class="quiz-question">
-            <p>4. Le cross-merchandising consiste à :</p>
-            <div class="quiz-options">
-              <label><input type="radio" name="q4" value="a"> Baisser tous les prix</label>
-              <label><input type="radio" name="q4" value="b"> Associer des produits complémentaires</label>
-              <label><input type="radio" name="q4" value="c"> Mettre tous les produits en vrac</label>
-            </div>
-          </div>
-
-          <div class="quiz-question">
-            <p>5. Combien de faces minimum recommande-t-on pour un produit visible ?</p>
-            <div class="quiz-options">
-              <label><input type="radio" name="q5" value="a"> 1 face</label>
-              <label><input type="radio" name="q5" value="b"> 2 faces</label>
-              <label><input type="radio" name="q5" value="c"> 10 faces</label>
-            </div>
-          </div>
-
-          <button class="btn btn-primary" onclick="checkMerchQuiz()">Valider mes réponses</button>
-          <div id="quiz-result" class="quiz-result"></div>
+          <div id="quiz-result" class="quiz-result" role="status" aria-live="polite"></div>
         </div>
 
         <div style="margin-top: 30px;">
@@ -254,30 +460,66 @@
   </footer>
 
   <script>
+    const QUESTIONS = [
+      { q: "À quelle hauteur privilégie-t-on les best-sellers ?", o: ["Bas du rayon", "Niveau des yeux (1,40 – 1,70 m)", "Tout en haut"], a: 1, e: "C’est le niveau le plus vu et le plus vendeur." },
+      { q: "Qu’est-ce que le facing ?", o: ["Le prix du produit", "Le nombre de faces visibles d’une référence", "La profondeur du rayon"], a: 1, e: "Plus une référence se vend, plus elle a de faces." },
+      { q: "Où place-t-on les promotions fortes ?", o: ["En zone froide", "En tête de gondole et zone chaude", "Uniquement en bas de rayon"], a: 1, e: "Elles doivent être très visibles." },
+      { q: "Un produit se vend 36 fois par jour, 12 unités par face, 1 réassort par jour. Combien de faces ?", o: ["1", "3", "12"], a: 1, e: "36 ÷ 12 = 3 faces." },
+      { q: "Où met-on les dates les plus courtes (FIFO) ?", o: ["Derrière les autres", "Devant les autres", "En réserve"], a: 1, e: "Elles doivent être vendues en premier." },
+      { q: "Où place-t-on les produits lourds ?", o: ["En bas du rayon", "Au niveau des yeux", "En haut du rayon"], a: 0, e: "Sécurité et ergonomie." },
+      { q: "Que faire si le prix en rayon diffère du prix en caisse ?", o: ["Rien", "Signaler au chef de rayon et corriger l’étiquette", "Changer le prix en caisse soi-même"], a: 1, e: "Le prix doit être identique partout." },
+      { q: "Taux de marge d’un produit acheté 120 DA HT et vendu 150 DA HT ?", o: ["20 %", "25 %", "30 %"], a: 0, e: "30 ÷ 150 × 100 = 20 %." }
+    ];
+
+    const form = document.getElementById('merch-quiz');
+    function buildQuiz() {
+      form.innerHTML = QUESTIONS.map((item, i) => `
+        <fieldset class="quiz-question" id="qq${i}" style="border:0;padding:0;margin:0 0 14px">
+          <legend><strong>${i + 1}. ${item.q}</strong></legend>
+          <div class="quiz-options">
+            ${item.o.map((opt, j) => `<label><input type="radio" name="q${i}" value="${j}"> ${opt}</label>`).join('')}
+          </div>
+          <div class="quiz-feedback"></div>
+        </fieldset>`).join('');
+    }
+
     function checkMerchQuiz() {
-      const answers = { q1: 'b', q2: 'b', q3: 'b', q4: 'b', q5: 'b' };
       let score = 0;
-      let total = 5;
-
-      for (let q in answers) {
-        const selected = document.querySelector(`input[name="${q}"]:checked`);
-        if (selected && selected.value === answers[q]) score++;
-      }
-
+      QUESTIONS.forEach((item, i) => {
+        const box = document.getElementById('qq' + i);
+        const sel = form.querySelector(`input[name="q${i}"]:checked`);
+        const fb = box.querySelector('.quiz-feedback');
+        box.classList.remove('ok', 'ko');
+        if (sel && Number(sel.value) === item.a) {
+          score++; box.classList.add('ok');
+          fb.textContent = 'Correct. ' + item.e;
+        } else {
+          box.classList.add('ko');
+          fb.textContent = (sel ? 'Incorrect. ' : 'Sans réponse. ') + 'Bonne réponse : ' + item.o[item.a] + '. ' + item.e;
+        }
+      });
+      const total = QUESTIONS.length;
       const result = document.getElementById('quiz-result');
-      result.classList.add('show');
-      
       if (score === total) {
         result.className = 'quiz-result show success';
-        result.innerHTML = `Excellent ! ${score}/${total} — Vous maîtrisez les bases du merchandising.`;
-      } else if (score >= 3) {
+        result.textContent = `Excellent ! ${score}/${total} — Vous maîtrisez les bases du merchandising.`;
+      } else if (score >= 6) {
         result.className = 'quiz-result show success';
-        result.innerHTML = `Bien ! ${score}/${total} — Relisez les points manqués pour progresser.`;
+        result.textContent = `Bien ! ${score}/${total} — Relisez les points manqués pour progresser.`;
       } else {
         result.className = 'quiz-result show error';
-        result.innerHTML = `${score}/${total} — Reprenez le module attentivement avant de valider.`;
+        result.textContent = `${score}/${total} — Reprenez les ateliers avant de valider.`;
       }
     }
+
+    function resetMerchQuiz() {
+      buildQuiz();
+      const result = document.getElementById('quiz-result');
+      result.className = 'quiz-result';
+      result.textContent = '';
+    }
+
+    buildQuiz();
   </script>
 
 </body>
